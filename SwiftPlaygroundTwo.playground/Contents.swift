@@ -7,6 +7,7 @@ var goodGrade = "I've been doing all my work"
 //line 5 is a conditional statement
 if goodGrade == "I'm not doing very well" {
     // then the code block will execute
+    print("I should be getting an A at this point")
 } else
 {
     // part 3
