@@ -22,3 +22,50 @@ if gradeA == true
 } else {
     print("I'm not sure about coding in Swift")
 }
+//part 5
+
+//Problem set 1:
+//declaring two variables that are integers and being used to compare > or <
+var integerOne = 2
+var integerTwo = 4
+
+// creating a conditional statement using > < and if/else then printing if false
+var comparision = integerOne > integerTwo
+if comparision == false
+{
+    print("The statement is false")
+} else {
+    print("The statement is true")
+}
+
+// problem set 2:
+// create two string variables
+var lowMoney = "I need money"
+var noMoney = "I don't have any money"
+
+// eveluate string to be true
+var moneyCounter = true
+if moneyCounter == true
+{
+    print(noMoney+" "+lowMoney)
+} else {
+    print("Nothing")
+}
+// problem set 3
+
+var codingHard = true
+var codingEasy = true
+
+if codingHard == false
+{
+    print("Nothing")
+} else {
+    print("Coding is hard")
+}
+
+if codingEasy == false
+{
+    print("Nothing")
+} else {
+    print("But I will get better ")
+}
